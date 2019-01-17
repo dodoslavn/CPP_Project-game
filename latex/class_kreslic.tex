@@ -1,0 +1,75 @@
+\hypertarget{class_kreslic}{\section{Kreslic Class Reference}
+\label{class_kreslic}\index{Kreslic@{Kreslic}}
+}
+
+
+hlavna metoda ktora sa stara o vykreslovanie  
+
+
+
+
+{\ttfamily \#include $<$Kreslic.\-h$>$}
+
+Inheritance diagram for Kreslic\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_kreslic}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_kreslic_ab0f01f44293ef4d5cb0d3b15017cbcd0}{\hyperlink{class_kreslic_ab0f01f44293ef4d5cb0d3b15017cbcd0}{Kreslic} ()}\label{class_kreslic_ab0f01f44293ef4d5cb0d3b15017cbcd0}
+
+\begin{DoxyCompactList}\small\item\em metoda ktora sa stara o vykreslenie textu \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_a11e344af477f3bf2724ff871c6291768}{void \hyperlink{class_kreslic_a11e344af477f3bf2724ff871c6291768}{resize} (int w, int h)}\label{class_kreslic_a11e344af477f3bf2724ff871c6291768}
+
+\begin{DoxyCompactList}\small\item\em bezparametrcky konstruktor \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_ae719429a9a3a3e2a95f7b606ac79d307}{void \hyperlink{class_kreslic_ae719429a9a3a3e2a95f7b606ac79d307}{display} ()}\label{class_kreslic_ae719429a9a3a3e2a95f7b606ac79d307}
+
+\begin{DoxyCompactList}\small\item\em metoda ktora riesi zmenu velkosti ukna \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_a4259d894b56e1c264f3eb5b1db9352f7}{virtual void \hyperlink{class_kreslic_a4259d894b56e1c264f3eb5b1db9352f7}{Kresli} ()=0}\label{class_kreslic_a4259d894b56e1c264f3eb5b1db9352f7}
+
+\begin{DoxyCompactList}\small\item\em metoda ktora sa stara o vykreslenie toho co sa prave zapisalo an vykreslenie \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_aa4c9c244b81ca405fccb2b5d0fa845cd}{void \hyperlink{class_kreslic_aa4c9c244b81ca405fccb2b5d0fa845cd}{pis} (std\-::string)}\label{class_kreslic_aa4c9c244b81ca405fccb2b5d0fa845cd}
+
+\begin{DoxyCompactList}\small\item\em abstraktna metoda ktora sluzi na vykreslenie toho daneho prostredia \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_kreslic_a09d5dd2518b9ccf301d0c92e15ec02f5}{void \hyperlink{class_kreslic_a09d5dd2518b9ccf301d0c92e15ec02f5}{Kruh} ()}\label{class_kreslic_a09d5dd2518b9ccf301d0c92e15ec02f5}
+
+\begin{DoxyCompactList}\small\item\em vektor strungov ktore obsahuju polozky pre vykreslenie legendy \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_a44f827cd0eda38a2067cab7657fd537e}{void \hyperlink{class_kreslic_a44f827cd0eda38a2067cab7657fd537e}{Stvorec} (\hyperlink{struct_pozicia}{Pozicia} prva, \hyperlink{struct_pozicia}{Pozicia} druha, \hyperlink{struct_farba}{Farba} farb)}\label{class_kreslic_a44f827cd0eda38a2067cab7657fd537e}
+
+\begin{DoxyCompactList}\small\item\em metoda ktora sa stara o vykreslenie kruhu \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_afba0442f11b078d7272fb81047480fbf}{void \hyperlink{class_kreslic_afba0442f11b078d7272fb81047480fbf}{Text} (std\-::string text, \hyperlink{struct_pozicia}{Pozicia} poz, \hyperlink{struct_farba}{Farba} farb)}\label{class_kreslic_afba0442f11b078d7272fb81047480fbf}
+
+\begin{DoxyCompactList}\small\item\em metoda ktora sa stara o vykreslenie stvorca \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_kreslic_a1fb614c273d51f93c86f8589d5d91f1d}{int {\bfseries m\-\_\-velkost}}\label{class_kreslic_a1fb614c273d51f93c86f8589d5d91f1d}
+
+\item 
+\hypertarget{class_kreslic_a8773018fd134429d99f9d999bda4c424}{int {\bfseries pom}}\label{class_kreslic_a8773018fd134429d99f9d999bda4c424}
+
+\item 
+\hypertarget{class_kreslic_a10efd37dd45c5ad887835eae6e3c463a}{\hyperlink{class_lokacia}{Lokacia} $\ast$ \hyperlink{class_kreslic_a10efd37dd45c5ad887835eae6e3c463a}{m\-\_\-lokacia}}\label{class_kreslic_a10efd37dd45c5ad887835eae6e3c463a}
+
+\begin{DoxyCompactList}\small\item\em premenna ktora sa zadefinuje v konstruktore ktora urcuje velkost vsetko co sa vykresluje a pomocna premenna pom ktora sa pouziva vsade \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_ab36883117907f55e5c3af6e13dda3d6e}{\hyperlink{class_lokacia}{Lokacia} $\ast$ \hyperlink{class_kreslic_ab36883117907f55e5c3af6e13dda3d6e}{m\-\_\-mapa}}\label{class_kreslic_ab36883117907f55e5c3af6e13dda3d6e}
+
+\begin{DoxyCompactList}\small\item\em premenna typu ukazatel an objekt triedy \hyperlink{class_lokacia}{Lokacia} ktora sa prave pouziva \end{DoxyCompactList}\item 
+\hypertarget{class_kreslic_ade0686fa0ef71327df9ff89c3e50f015}{std\-::vector$<$ std\-::string $>$ \hyperlink{class_kreslic_ade0686fa0ef71327df9ff89c3e50f015}{m\-\_\-polozky}}\label{class_kreslic_ade0686fa0ef71327df9ff89c3e50f015}
+
+\begin{DoxyCompactList}\small\item\em premenna typu ukazatel an objekt triedy \hyperlink{class_lokacia}{Lokacia} ktora sa prave pouziva \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+hlavna metoda ktora sa stara o vykreslovanie 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Kreslic.\-h\item 
+Kreslic.\-cpp\end{DoxyCompactItemize}
