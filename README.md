@@ -12,6 +12,7 @@ Generated Latex docs are in folder "/Latex/" .
 
 Generated HTML documentation from C++ header files in "/html/" folder.
 
+Comments are in Slovak, in source code in header files only.
 
 Code is using OpenGL for graphics.
 
