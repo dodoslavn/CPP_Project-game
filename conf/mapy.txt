@@ -1,0 +1,11 @@
+conf/mapa0.txt
+conf/mapa1.txt
+conf/mapa2.txt
+conf/mapy3.txt
+conf/mapy4.txt
+conf/mapy5.txt
+conf/mapy6.txt
+conf/mapy7.txt
+conf/mapy8.txt
+conf/mapy9.txt
+
